@@ -12,7 +12,7 @@ public static void main(String[] args) {
         
         for (int i = 0; i < 3; i++) {
         System.out.print("Digite o valor " + (i + 1) + ": ");
-        Numeros[i] = input.nextInt();
+        Numeros[i] = scanner.nextInt();
         }
         Arrays.sort(Numeros); 
         
