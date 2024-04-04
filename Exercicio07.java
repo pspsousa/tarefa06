@@ -13,7 +13,7 @@ public static void main(String[] args) {
 
 	for (int i = 0; i < Numeros.length; i++) {
 	System.out.print("Digite o número " + (i + 1) + ": ");
-	Numeros[i] = input.nextInt();
+	Numeros[i] = scanner.nextInt();
 	}
 
 	System.out.println("Números divisíveis por 2 e 3:");
