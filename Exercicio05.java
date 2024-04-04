@@ -13,16 +13,16 @@ public static void main(String[] args) {
 
     	System.out.println("Equação do 2o grau: ax² + bx + c = 0");
     	System.out.print("Entre com o valor de 'a' (diferente de zero): ");
-    	a = input.nextFloat();
+    	a = scanner.nextFloat();
     	if(a == 0) {
         System.out.println("O valor de deve ser diferente de zero");
         return;
    	}
    	System.out.print("Entre com o valor de b: ");
-    	b = input.nextFloat();
+    	b = scanner.nextFloat();
     
     	System.out.print("Entre com o valor de c: ");
-    	c = input.nextFloat();
+    	c = scanner.nextFloat();
 
     	delta = Math.pow(b, 2) - (4 * a * c);
 
