@@ -14,7 +14,7 @@ public static void main(String[] args) {
 
     	for (int i = 0; i < 5; i++) {
         System.out.print("Digite o número " + (i + 1) + ": ");
-        Numero = input.nextInt();
+        Numero = scanner.nextInt();
 
         if (Numero > NumMaior) {
             NumMaior = Numero;
